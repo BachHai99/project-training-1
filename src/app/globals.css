@@ -1,3 +1,5 @@
+@import "bulma/css/bulma.min.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -40,3 +42,33 @@ a {
     color-scheme: dark;
   }
 }
+/* Make the Top Navigation Fixed */
+.navbar.is-fixed-top {
+  background-color: white;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Make Filters Fixed Below Navigation */
+.filters-container {
+  position: fixed;
+  top: 60px; 
+  /* Adjust based on navbar height */
+  width: 100%;
+  background: white;
+  padding: 10px;
+  z-index: 999;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Table Wrapper to Allow Scrolling */
+.table-wrapper {
+  /* margin-top: 120px;  */
+  /* Adjust based on filters height */
+  height: calc(100vh - 250px); /* Adjustable */
+  overflow-y: auto;
+}
+
+
