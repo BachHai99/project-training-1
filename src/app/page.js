@@ -8,7 +8,7 @@ export default function Home() {
     // <div className={styles.page}>
     <div>
       <Topbar />
-      <div className="p-4 mt-6">
+      <div className="p-4">
         <AnalyticsTable />
       </div>
     </div>

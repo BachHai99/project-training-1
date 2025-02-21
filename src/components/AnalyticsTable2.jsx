@@ -104,7 +104,7 @@ export default function AnalyticsTable() {
 
 
             {/* search */}
-            <div className="columns is-vcentered is-multiline is-mobile">
+            <div className="columns is-vcentered is-mobile">
 
                 {/* Left Column: Search Inputs */}
                 <div className="column is-9">
@@ -219,7 +219,7 @@ export default function AnalyticsTable() {
                 </div>
 
                 {/* Right Column: Click Priority Links */}
-                <div className="column is-3 is-offset">
+                <div className="column is-3">
                     <div className="is-flex is-align-items-center is-justify-content-flex-end">
                         <a href="#" className="mr-3">
                             <i className="fas fa-mouse-pointer"></i> Last Click Priority
@@ -239,7 +239,7 @@ export default function AnalyticsTable() {
                 <div className="box table-container scrollable-table p-0">
                     <table className="table is-fullwidth is-striped is-hoverable"
                         style={{
-                            maxHeight: "50vh",
+                            maxHeight: "82vh",
                             overflowY: "auto",
                         }}
                     >
